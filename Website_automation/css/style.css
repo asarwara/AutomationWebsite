@@ -1,0 +1,141 @@
+/* Global Styling */
+body {
+  font-family: "PT Serif", serif !important;
+  background-color: #F6F6F2;
+  
+}
+
+/* Header Styling */
+.navbar {
+  background-color:#388087 !important;
+  border-bottom: 1px solid #E9ECEF;
+}
+
+.navbar-brand {
+  font-size: 24px; 
+  color: #388087;
+}
+
+.navbar-nav .nav-link {
+  color: #333333; /* Nav link color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #388087; /* Nav link hover color */
+}
+
+/* Banner Styling */
+.banner-section {
+  position: relative;
+  background-color: #6FB3B8; /* Banner background color */
+}
+
+.banner-section img {
+  width: 100%; /* Set the width to fill the container */
+  height: 300px; /* Set the height as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF; /* Banner content color */
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 36px; /* Banner heading font size */
+  color: #FFFFFF; /* Banner heading color */
+}
+
+.banner-content p {
+  font-size: 18px; /* Banner paragraph font size */
+  color: #FFFFFF; /* Banner paragraph color */
+}
+
+/* Production Solution Styling */
+.production-solution {
+  padding: 50px 0; /* Padding around production solution section */
+  text-align: justify;
+}
+
+.production-solution h2 {
+  font-size: 28px; /* Production solution heading font size */
+  color: #388087; /* Production solution heading color */
+}
+
+.production-solution p {
+  font-size: 16px; /* Production solution paragraph font size */
+  color: #388087; /* Production solution paragraph color */
+}
+
+/* Form Styling */
+.form-group label {
+  color: #388087; /* Form label color */
+}
+
+.form-control {
+  border: 1px solid #388087; /* Form control border color */
+}
+
+.form-control:focus {
+  border-color: #6FB3B8; /* Form control border color on focus */
+  box-shadow: 0 0 5px rgba(111, 179, 184, 0.5); /* Form control shadow on focus */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #388087; /* Primary button background color */
+  border-color: #388087; /* Primary button border color */
+  color: #FFFFFF; /* Primary button text color */
+}
+
+.btn-primary:hover {
+  background-color: #6FB3B8; /* Primary button background color on hover */
+  border-color: #6FB3B8; /* Primary button border color on hover */
+}
+
+/* Footer Styling */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #388087;
+  text-align: center;
+  padding: 10px 0;
+  color: #388087;
+}
+
+.footer-content {
+  color: #333333; /* Footer content color */
+}
+
+.footer-content h5 {
+  font-size: 20px; /* Footer heading font size */
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+  color: #333333; /* Footer link color */
+}
+
+.footer-content ul li a:hover {
+  color: #007BFF; /* Footer link hover color */
+}
+
+/* Additional Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
